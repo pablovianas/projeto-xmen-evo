@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo-x-men.png" alt="Logo desenho">           
+    </header>
+    <main>
+        <div class="selecao-de-personagens">
+            <ul class="lista-de-personagens">
+                
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                    <img src="./src/imagens/ciclope.jpg" alt="Personagem ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Os poderes de Jean eram restritos a simples telecinese, e até mesmo levantar seu próprio peso rapidamente cansava ela">
+                    <img src="./src/imagens/jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar">
+                    <img src="./src/imagens/lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+            
+                <li class="personagem" id="professor-xavier" data-name="Professor Xavier" data-description="Ele tem o poder de : telepatia: Pode lançar ondas mentais que podem torturar o oponente ou matar e capaz de criar campos de força">
+                    <img src="./src/imagens/professor-xavier.jpg" alt="Personagem professor-xavier">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, faz o clima variar entre seus extremos, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos">
+                    <img src="./src/imagens/tempestade.jpg" alt="Personagem tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente">
+                    <img src="./src/imagens/vampira.jpg" alt="Personagem vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine é um dos mutantes mais importante e reconhecido da história dos X-Men" data-text-length="curto">
+                    <img src="./src/imagens/wolverine.jpg" alt="Personagem wolverine">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas, mãos com três dedos e pés com dois dedos">
+                    <img src="./src/imagens/noturno.jpg" alt="Personagem noturno">
+                </li>
+                <li class="personagem" id="magneto" data-name="magneto" data-description="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos">
+                    <img src="./src/imagens/magneto.jpg" alt="Personagem magneto">
+                </li>
+            </ul>
+            <div class="personagem-container">
+                <img class="personagem-grande" src="./src/imagens/ciclope.png" alt="Personagem com a imagem maior">
+                <div class="informacoes-personagem">
+                    <h2 id="nome-personagem">Ciclope</h2>
+                    <p id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
