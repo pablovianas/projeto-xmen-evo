@@ -1,6 +1,7 @@
 body{
     font-family: 'x-men', Courier, monospace;
-    background: var(--cor-secundaria);
+    background: #000000;
+    color: #ffffff;
 }
 
 body::before{
@@ -15,6 +16,11 @@ body::before{
     z-index: -1;
 }
 
+.cabecalho{
+    display: flex;    
+    justify-content: center;
+}
+
 .cabecalho .logo{
     max-width: 300px;
 }
@@ -23,12 +29,6 @@ main{
     min-height: calc(100vh - 130px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.cabecalho{
-    z-index: 1;
-    display: flex;    
     justify-content: center;
 }
 
@@ -44,7 +44,6 @@ main{
     width: 350px; 
 }
 
-
 .selecao-de-personagens .lista-de-personagens{
     display: flex;
     flex-wrap: wrap;
@@ -53,8 +52,8 @@ main{
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem{
-    border: 2px solid var(--cor-padrao);
-    background-color: var(--cor-padrao);
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
     width: 30%;
     height: 160px;
     cursor: pointer;
@@ -71,7 +70,7 @@ main{
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem.selecionado{
-    border: 2px solid var(--cor-azul-media);
+    border: 2px solid #d3ffff;
     animation: c-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
 }
@@ -86,26 +85,24 @@ main{
 .selecao-de-personagens .informacoes-personagem{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
     max-width: 300px;
     gap: 15px;
 }
 
-.selecao-de-personagens .personagem-container{
+.selecao-de-personagens .personagem-selecionado{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.selecao-de-personagens .personagem-container .informacoes-personagem #nome-personagem,
-.selecao-de-personagens .personagem-container .informacoes-personagem #descricao-personagem{
-    color: var(--cor-padrao);
+.selecao-de-personagens .personagem-selecionado .informacoes-personagem #nome-personagem,
+.selecao-de-personagens .personagem-selecionado .informacoes-personagem #descricao-personagem{
     text-align: center;
 }
 
-.selecao-de-personagens .personagem-container .informacoes-personagem #nome-personagem{
+.selecao-de-personagens .personagem-selecionado .informacoes-personagem #nome-personagem{
+    font-weight: bolder;
     text-transform: uppercase;
     font-size: 26px;
 }

@@ -39,14 +39,14 @@
         width: 80px;
         height: 80px;
     }
-    .selecao-de-personagens .personagem-container {
+    .selecao-de-personagens .personagem-selecionado {
         flex-direction: column-reverse;
         align-items: center;    
     }
-    .selecao-de-personagens .personagem-container .informacoes-personagem #nome-personagem {
+    .selecao-de-personagens .personagem-selecionado .informacoes-personagem #nome-personagem {
         font-size: 20px;
     }
-    .selecao-de-personagens .personagem-container .informacoes-personagem #descricao-personagem {
+    .selecao-de-personagens .personagem-selecionado .informacoes-personagem #descricao-personagem {
         display: none;
     }
 }
