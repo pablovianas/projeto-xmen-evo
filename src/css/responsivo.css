@@ -1,9 +1,5 @@
 @media (width >= 768px) {
 
-    .cabecalho .titulo {
-        font-size: 40px;
-    }
-
     .selecao-de-personagens .lista-de-personagens {
         max-width: 400px;
     }
@@ -24,10 +20,6 @@
 
     main {
         padding: 0 5px;
-    }
-
-    .cabecalho .titulo {
-        font-size: 22px;
     }
 
     .selecao-de-personagens {
